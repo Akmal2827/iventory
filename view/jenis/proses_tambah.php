@@ -1,18 +1,13 @@
 <?php
 
-$id = $_POST['id_barang'];
-$nama_barang = $_POST['nama_barang'];
-$id_jenis = $_POST['id_jenis'];
-$harga = $_POST['harga'];
-$stock = $_POST['stock'];
+$id = $_POST['id_jenis'];
+$nama_jenis = $_POST['nama_jenis'];
 include "../../config/koneksi.php";
 
-$query = mysqli_query($conn, "INSERT INTO barang VALUES(
+$query = mysqli_query($conn, "INSERT INTO jenis VALUES(
     '$id',
-    '$nama_barang',
-    '$id_jenis',
-    '$harga',
-    '$stock')");
+    '$nama_jenis'
+    )");
 
 if($query) {
     echo "<script>alert('Data berhasil disimpan')</script>";

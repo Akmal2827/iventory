@@ -28,27 +28,15 @@
 
 
 <div class="container"> 
-  <h1>Tambah Data barang</h1>
+  <h1>Tambah Data jenis</h1>
 <form action="proses_tambah.php" method="POST">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">id_barang</label>
-    <input type="varchar" class="form-control" name="id_barang" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <label for="exampleInputEmail1" class="form-label">id_jenis</label>
+    <input type="text" class="form-control" name="id_jenis" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">nama_barang</label>
-    <input type="varchar" class="form-control" name="nama_barang" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">id_jenis</label>
-    <input type="varchar" class="form-control" name="id_jenis" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">harga</label>
-    <input type="varchar" class="form-control" name="harga" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">stock</label>
-    <input type="int" class="form-control" name="stock" id="exampleInputPassword1">
+    <label for="exampleInputPassword1" class="form-label">nama_jenis</label>
+    <input type="text" class="form-control" name="nama_jenis" id="exampleInputPassword1">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
